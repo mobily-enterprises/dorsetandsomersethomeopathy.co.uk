@@ -1,0 +1,146 @@
+* { 
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fffcf5;
+    font-family: Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+#content h1,#content h2,#content h3 {
+    font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	font-weight: normal;
+}
+
+#headerBarOuterContainer {
+	background: #aea294;/*#e27242;*/
+	margin-top: 15px;
+	border-top: 1px solid #847565;/*#c3887d;*/
+	border-bottom: 1px solid #847565;
+}
+
+#headerBarContainer,#contentContainer,#copyright {
+	width: 980px;
+	margin: 0 auto 0 auto;
+}
+
+#headerBar {
+	width: 980px;
+	height: 322px;
+	background: url(topbar.jpg) top left no-repeat;
+}
+
+#headerBar h1 {
+	width: 980px;
+	height: 322px;
+	background: url(logo.png) 35px 15px no-repeat;
+}
+
+#headerBar h1 span {
+	display: none;
+}
+
+#contentContainer {
+	margin-top: 40px;
+}
+
+#content {
+	width: 550px;
+	float: right;
+}
+
+#content h1 {
+	font-size: 1.9em;
+}
+
+#content h2 {
+	font-size: 1.5em;
+	margin: 30px 0 0 0;
+}
+
+#content h3 {
+	font-size: 1.3em;
+	margin: 22px 0 0 0;
+}
+
+#content p {
+	margin: 0 0 15px 0;
+}
+
+#content a {
+	color: #9f1904;
+	font-weight: bold;
+}
+
+#content blockquote {
+	margin: 0 0 15px 0;
+	font-style: italic;
+}
+
+#content img.sideImg {
+	float: right;
+	margin: 20px 0 20px 40px;
+	border-bottom: 5px solid #f6dfb4;
+	border-top: 5px solid #f6dfb4;
+}
+
+#content img.logoImg {
+	padding: 20px 0 20px 0;
+	margin: 40px auto 30px auto;
+	border-bottom: 1px solid #888888;
+	border-top: 1px solid #888888;
+	
+}
+
+#content img.portraitImg {
+	float: right;
+	margin: 20px 0 20px 40px;
+	border: 1px solid #777777;
+}
+
+#sideBar {
+	width: 330px;
+	float: left;
+}
+
+#contactInfo {
+	background: #e1a170;/*#f1ad60;*/
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+	border-bottom: 5px solid #f6dfb4;
+	border-top: 5px solid #f6dfb4;
+}
+
+#contactInfo h1 {
+	font-size: 1em;
+	padding: 0 0 8px 0;
+	border-bottom: 1px solid #c99457;
+	margin: 0 0 16px 0;
+}
+
+#contactInfo p {
+	margin: 0 0 8px 0;
+}
+
+#sideBar img {
+	border-bottom: 5px solid #f6dfb4;
+	border-top: 5px solid #f6dfb4;
+}
+
+#copyright {
+	margin: 40px auto 40px auto;
+	text-align: right;
+	font-size: 0.8em;
+}
+
+#copyright a {
+	color: inherit;
+}
+
+.clearer {
+	clear: both;
+}
